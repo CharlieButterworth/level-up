@@ -3,8 +3,8 @@
         "model": "levelupapi.games",
         "pk": 1,
         "fields": {
-            "gamer": "",
-            "gameType": "",
+            "gamer": 1,
+            "gametype": 1,
             "name": "Trevor",
             "title": "Chess",
             "number_of_players": 8
