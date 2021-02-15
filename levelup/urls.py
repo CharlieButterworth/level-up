@@ -8,8 +8,8 @@ from levelupapi.views import GamesView, GameTypes, Events
 
 
 router = routers.DefaultRouter(trailing_slash=False)
-router.register(r'gametypes', GameTypes, 'gametype')
-router.register(r'games', GamesView, 'game')
+router.register(r'gametypes', GameTypes, 'gametypes')
+router.register(r'games', GamesView, 'games')
 router.register(r'events', Events, 'event')
 
 urlpatterns = [
